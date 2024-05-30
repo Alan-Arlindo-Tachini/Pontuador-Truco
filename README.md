@@ -1,4 +1,4 @@
 # Pontuador-Truco
 Pontuador de Truco utilizando Javascript - DOM. 
 
-** Jogo possui dois usuários no qual pode ser escolhido o nome ** 
+**Jogo possui dois usuários no qual pode ser escolhido o nome** 
