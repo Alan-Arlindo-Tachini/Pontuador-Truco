@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <title>Jogo truo</title>
+</head>
+
+<body>
+    <h1 class="titulo">Pontuação de Truco</h1>
+    <div class="placar">
+        <div class="dados">
+            <div id="nomedupla1">Dupla 1:</div>
+            <div id="dupla1">0</div>
+            <h4>Vitorias</h4>
+            <div id="vitoria1">0</div>
+            <div id="nomedupla2">Dupla 2:</div>
+            <div id="dupla2">0</div>
+            <h4>Vitorias</h4>
+            <div id="vitoria2">0</div>
+        </div>
+    </div>
+    <div class="botoens">
+        <div class="botoens_nos">
+            <h1 id="nomedupla1baixo">Dupla 1:</h1>
+            <button class="botaon1" onclick="adicionarDupla1(1)">+1</button>
+            <button class="botaon2" onclick="adicionarDupla1(3)">+3</button>
+            <button class="botaon3" onclick="adicionarDupla1(6)">+6</button>
+            <button class="botaon4" onclick="adicionarDupla1(9)">+9</button>
+            <button class="botaon5" onclick="adicionarDupla1(12)">+12</button>
+        </div>
+        <div class="botoens_eles">
+            <h1 id="nomedupla2baixo">Dupla 2:</h1>
+            <button class="botaoe1" onclick="adicionarDupla2(1)">+1</button>
+            <button class="botaoe2" onclick="adicionarDupla2(3)">+3</button>
+            <button class="botaoe3" onclick="adicionarDupla2(6)">+6</button>
+            <button class="botaoe4" onclick="adicionarDupla2(9)">+9</button>
+            <button class="botaoe5" onclick="adicionarDupla2(12)">+12</button>
+        </div>
+    </div>
+    <div class="Placar_historico">
+        <h1>Resultado</h1>
+        <div class="historico">
+            <div id="resultado"></div>
+        </div>
+    </div>
+    <h1 onclick="locationreload()" id="fim">Reiniciar jogo</h1>
+    <script src="assets/js/script.js"></script>
+</body>
+
+</html>

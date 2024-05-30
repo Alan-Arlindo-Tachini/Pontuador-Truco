@@ -1,0 +1,138 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    background-image: url(https://t2.uc.ltmcdn.com/pt/posts/3/2/7/como_jogar_truco_20723_orig.jpg);
+    background-position: fixed;
+    background-size: auto;
+}
+
+.titulo {
+    text-align: center;
+    width: 70%;
+    margin: 0 auto;
+    background-color: aliceblue;
+    border-radius: 5px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.placar {
+    margin: 0 auto;
+    justify-content: center;
+    text-align: center;
+    gap: 10px;
+    width: 70%;
+    background-color: white;
+    border-radius: 20px;
+    margin-bottom: 20px;
+    line-height: 30px;
+}
+
+.placar dados {
+    width: 90%;
+}
+
+.placar div {
+
+    border-radius: 20px;
+    padding: 5px;
+}
+
+#dupla1 {
+    font-weight: bold;
+    background-color: orange;
+    color: white;
+    font-size: 1.5em;
+}
+
+#dupla2 {
+
+    font-weight: bold;
+    background-color: orange;
+    color: white;
+    font-size: 1.5em;
+}
+
+.botoens {
+    text-align: center;
+    margin: 0 auto;
+    background-color: white;
+    border-radius: 20px;
+    width: 70%;
+}
+
+button {
+    background-color: orange;
+    border: 1px none;
+    padding: 20px;
+    margin-bottom: 20px;
+    line-height: 25px;
+}
+
+button:hover {
+    background-color: orangered;
+}
+
+#nomedupla1 {
+    background-color: black;
+    color: white;
+}
+
+#nomedupla2 {
+    background-color: black;
+    color: white;
+}
+
+#nomedupla1baixo {
+    padding-top: 10px;
+    margin-bottom: 20px;
+}
+
+#nomedupla2baixo {
+
+    margin-bottom: 20px;
+}
+
+.historico {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+    color: orange;
+    width: 100%;
+    border-radius: 20px;
+    height: 150px;
+    overflow: auto;
+}
+
+.Placar_historico {
+    width: 70%;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.Placar_historico h1 {
+    text-align: center;
+    background-color: black;
+    color: white;
+    border-radius: 5px;
+    width: 100%;
+    margin: 20px auto;
+}
+
+#fim {
+    text-align: center;
+    margin: 0 auto;
+    color: white;
+    background-color: black;
+    border-radius: 5px;
+    margin-top: 20px;
+    width: 100%;
+}
