@@ -14,7 +14,9 @@ Pontuador Truco é uma aplicação desenvolvida para ajudar jogadores de truco a
 ## Tecnologias
 
 > Html
+
 > Css
+
 > JavaScript
 
 ## Contribuição
